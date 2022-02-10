@@ -1,0 +1,64 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-light-blue {
+  background-color: #2980b9;
+}
+
+.avatar:hover {
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text-light-blue {
+  color: #2980b9;
+}
+
+.jumbotron {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.inner-img {
+  overflow: hidden;
+}
+
+.inner-img img {
+  transition: 0.8s;
+}
+
+.inner-img img:hover {
+  transform: scale(1.15);
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  /* transform: translateY(-2px); */
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+/* apapun yang ada di dalam persis setelah .row */
+#gallery .row > * {
+  padding: 0;
+}
